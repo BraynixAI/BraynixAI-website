@@ -10,7 +10,7 @@ function casestudy() {
     <div>
       <AppBar />
       <CaseStudy />
-      <OurProcess />
+      {/* <OurProcess /> */}
       <Competitor />
       <Footer />
     </div>

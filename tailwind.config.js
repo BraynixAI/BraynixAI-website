@@ -15,6 +15,8 @@ module.exports = {
         "fndnote-bg": "url('/images/foundersbackground.svg')",
         "getintoch-bg": "url('/images/getintoch.svg')",
         "footer-bg": "url('/images/backgroundWave.svg')",
+        "wave2-bg": "url('/images/wave2.svg')",
+        "wave3-bg": "url('/images/wave3.svg')",
       },
       colors: {
         violetPrimery: "#06071B",

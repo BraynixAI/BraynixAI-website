@@ -3,18 +3,18 @@ import React from "react";
 function Footer() {
   return (
     <div className="bg-violetPrimery bg-footer-bg py-10">
-      <footer class="bg-white bg-opacity-5 mx-10 rounded-lg ">
-        <div class="pb-6 pt-16 sm:px-6 lg:px-8">
-          <div class="flex md:flex-row md:justify-between flex-col-reverse gap-4">
-            <div className="space-y-5">
+      <footer class="bg-white bg-opacity-5 lg:mx-10 mx-5 px-2 rounded-lg ">
+        <div class="pb-6 lg:pt-16 pt-2 sm:px-6 lg:px-8">
+          <div class="flex md:flex-row md:justify-between flex-col gap-4">
+            <div className="lg:space-y-5 ">
               <div className="text-white text-lg">Logo</div>
-              <p className="w-3/5 text-white">
+              <p className="lg:w-3/5 lg:text-base text-xs text-white">
                 Our vision is to provide convenience and help increase your
                 sales business.
               </p>
               <div className="flex justify-start">
-                <div class="bg-transparent md:mt-10 ">
-                  <ul class="mt-4 flex justify-center gap-6 sm:mt-0 sm:justify-end pt-5">
+                <div class="bg-transparent lg:mt-10 ">
+                  <ul class="mt-2 flex justify-center gap-6 sm:mt-0 sm:justify-end ">
                     <li className="">
                       <a
                         href="/"
@@ -111,7 +111,7 @@ function Footer() {
               </div>
             </div>
 
-            <div class=" bg-transparent ">
+            <div class=" bg-transparent mt-5 lg:mt-0 ">
               <div class=" grid grid-cols-3 md:gap-8 gap-4 dark:border-gray-800">
                 <div class="">
                   <p class="md:text-lg text-xs font-medium text-violetPrimery dark:text-white uppercase">
@@ -169,7 +169,7 @@ function Footer() {
                     Community
                   </p>
 
-                  <ul class="mt-8 space-y-4 md:text-sm text-xs">
+                  <ul class="lg:mt-8 mt-4  space-y-4 md:text-sm text-xs">
                     <li>
                       <a
                         class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
@@ -254,8 +254,8 @@ function Footer() {
             </div>
           </div>
 
-          <div class="mt-8 border-t border-gray-500 pt-6  sm:flex sm:items-center sm:justify-between">
-            <p class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
+          <div class="mt-8 border-t border-gray-500 pt-6  ">
+            <p class="text text-sm text-gray-500">
               ©2023 Braynix. All rights reserved
             </p>
             {/* <p class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">

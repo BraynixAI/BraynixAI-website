@@ -1,5 +1,7 @@
-import MarqueeBar from "@/components/HomePage/marque";
+import Development from "@/components/HomePage/development";
+import GotProject from "@/components/HomePage/gotproject";
 import Mouse from "@/components/HomePage/mouse";
+import WhatWeActually from "@/components/HomePage/servicework";
 import Slider from "@/components/HomePage/slider";
 import Testimonial from "@/components/HomePage/testimonial";
 import Welcome from "@/components/HomePage/welcome";
@@ -13,11 +15,12 @@ function index() {
       <AppBar />
       <Welcome />
       <Mouse />
-      {/* <ServiceWork /> */}
-      {/* <Slider /> */}
+      <WhatWeActually />
+      <Development />
+      {/* <ServiceWorker /> */}
       <Testimonial />
-      {/* <GotProject />
-      <Development /> */}
+      <GotProject />
+      <Slider />
       <Footer />
     </div>
   );

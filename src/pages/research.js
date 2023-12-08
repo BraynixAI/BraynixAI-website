@@ -6,12 +6,14 @@ import OutDetection from "../components/Research/outdetection";
 import CrackDetection from "../components/Research/crackdetection";
 import AppBar from "@/components/common_component/Appbar";
 import Footer from "@/components/common_component/Footer";
+import ResearchButton from "@/components/Research/button";
 
 function research() {
   return (
     <div>
       <AppBar />
       <ResearchPage />
+      <ResearchButton />
       <Covoid19 />
       <OutDetection />
       <CrackDetection />

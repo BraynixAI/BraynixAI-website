@@ -6,22 +6,22 @@ import { XCircleIcon } from "@heroicons/react/outline";
 // import { XCircleIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  {
-    name: "Home",
-    href: "/",
-  },
+  // {
+  //   name: "Home",
+  //   href: "/",
+  // },
   {
     name: "About Us ",
     href: "about_us_page",
   },
-  {
-    name: "Service",
-    href: "service",
-  },
 
   {
-    name: "Product",
+    name: "Products",
     href: "product",
+  },
+  {
+    name: "Services",
+    href: "service",
   },
   {
     name: "Contact",
