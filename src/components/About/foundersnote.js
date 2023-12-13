@@ -14,7 +14,7 @@ function FoundersNote() {
         </div>
         <div className="flex flex-1 flex-col ">
           <img src="images/heading3.svg" className="absolute" />
-          <p className="text-white text-2xl font-normal p-5">
+          <p className="text-white text-xl font-normal p-5">
             "As the founder of Braynix AI, I am proud to lead a team of talented
             individuals who are dedicated to using cutting-edge artificial
             intelligence technologies to solve real-world problems. Our mission

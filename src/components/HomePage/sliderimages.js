@@ -11,7 +11,7 @@ function SliderImages({ slideimg }) {
           <p className="text-gray-300 font-normal text-base">
             Best Medical online service.
           </p>
-          <button className="flex items-center space-x-3 ">
+          <button className="flex items-center space-x-3">
             <img src="images/lbutton.svg" />
             <p className="text-white  font-normal text-base">Explore more</p>
           </button>

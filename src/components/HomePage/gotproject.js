@@ -12,10 +12,13 @@ function GotProject() {
         </p>
       </div>
       <div className="flex justify-center lg:my-8 my-5">
-        <button className="flex justify-between items-center border border-white rounded-full p-2 space-x-4">
+        <a
+          href="/contact"
+          className="flex justify-between items-center border border-white rounded-full p-2 space-x-4"
+        >
           <img src="images/telegram.svg" />
           <p className="text-white text-sm font-normal ">Get In Touch</p>
-        </button>
+        </a>
       </div>
     </div>
   );
