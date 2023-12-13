@@ -20,7 +20,7 @@ function Slider() {
   // const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   return (
     <div>
-      <div className="py-5 bg-violetPrimery bg-wave3-bg bg-cover bg-center w-full">
+      <div className="py-5 bg-violetPrimery md:bg-wave3-bg  bg-cover bg-center w-full">
         <div className=" w-full justify-center items-center flex flex-col px-2">
           <img src="images/products.svg" className="lg:h-16" />
           <div className=" z-50 flex justify-center items-center flex-col -mt-2 space-y-5 ">
@@ -34,7 +34,27 @@ function Slider() {
             </p>
           </div>
         </div>
-
+        <div>
+          <div className="md:hidden space-y-5 my-5 mx-4 ">
+            {[0, 1, 2].map((item) => (
+              <div className="rounded-2xl">
+                <img src="images/sl-img.svg" />
+                <div className="p-5 bg-gray-800 space-y-3 rounded-b-xl">
+                  <p className="text-white font-medium text-xl">Vitmeds</p>
+                  <p className="text-gray-300 font-normal text-base">
+                    Best Medical online service.
+                  </p>
+                  <button className="flex items-center space-x-3">
+                    <img src="images/lbutton.svg" />
+                    <p className="text-white  font-normal text-base">
+                      Explore more
+                    </p>
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
         <div className="w-full my-10 hidden md:block">
           <Swiper
             effect={"coverflow"}

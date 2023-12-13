@@ -7,7 +7,8 @@ function Footer() {
         <div class="pb-6 lg:pt-16 pt-2 sm:px-6 lg:px-8">
           <div class="flex md:flex-row md:justify-between flex-col gap-4">
             <div className="lg:space-y-5 ">
-              <div className="text-white text-lg">Logo</div>
+              <img src="images/Braynixlogo.svg" className="h-16" />
+
               <p className="lg:w-3/5 lg:text-base text-xs text-white">
                 Our vision is to provide convenience and help increase your
                 sales business.

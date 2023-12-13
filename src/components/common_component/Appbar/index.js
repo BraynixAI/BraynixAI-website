@@ -49,11 +49,12 @@ function AppBar() {
       <div className="bg-violetPrimery lg:px-14 p-5 ">
         <div className="  flex justify-between items-center ">
           <div className="flex space-x-2">
-            <div className="space-y-1">
+            {/* <div className="space-y-1">
               <img src="images/r-logo.svg" />
               <img src="images/r-logo.svg" />
             </div>
-            <p className="text-white text-lg font-bold ">logo</p>
+            <p className="text-white text-lg font-bold ">logo</p> */}
+            <img src="images/Braynixlogo.svg" className="h-16" />
           </div>
 
           <div className="flex h-12">

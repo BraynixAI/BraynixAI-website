@@ -1,6 +1,6 @@
 import React from "react";
 
-function SliderImages({ slideimg }) {
+function SliderImages() {
   return (
     <div className="flex">
       {/* {[0, 1, 2].map((item) => ( */}

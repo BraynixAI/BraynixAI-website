@@ -15,7 +15,7 @@ function about_us_page() {
       <OurMission />
       <OurVision />
       <FoundersNote />
-      {/* <Client /> */}
+      <Client />
       <Footer />
     </div>
   );
