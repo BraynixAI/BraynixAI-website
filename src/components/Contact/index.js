@@ -6,7 +6,7 @@ function ContactPage() {
     <div>
       <div className="py-5 bg-violetPrimery">
         <div className=" w-full justify-center items-center flex flex-col">
-          <img src="images/contact.svg" className="h-16" />
+          <img src="images/contact.svg" className="h-16 px-5 md:px-0" />
           <div className=" z-10 flex justify-center items-center flex-col -mt-2 space-y-5 ">
             <p className="font-bold lg:text-5xl text-2xl text-white tracking-wider">
               Contact

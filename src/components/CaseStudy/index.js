@@ -7,8 +7,8 @@ function CaseStudy() {
     <div className="">
       <div className="py-5 bg-violetPrimery bg-wave2-bg lg:h-full  lg:bg-center bg-bottom px-2">
         <div className=" w-full justify-center items-center flex flex-col">
-          <img src="images/casestudy.svg" />
-          <div className=" z-10 flex justify-center items-center flex-col -mt-5  space-y-5 ">
+          <img src="images/casestudy.svg" className="px-5 md:px-0" />
+          <div className=" z-10 flex justify-center items-center flex-col md:-mt-10 -mt-5 space-y-3 ">
             <p className="font-bold text-4xl text-white tracking-wider">
               CaseStudy
             </p>

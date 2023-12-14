@@ -54,7 +54,9 @@ function AppBar() {
               <img src="images/r-logo.svg" />
             </div>
             <p className="text-white text-lg font-bold ">logo</p> */}
-            <img src="images/Braynixlogo.svg" className="h-16" />
+            <a href="/">
+              <img src="images/Braynixlogo.svg" className="h-16" />
+            </a>
           </div>
 
           <div className="flex h-12">

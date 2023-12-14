@@ -6,15 +6,9 @@ function ServicePage() {
     <div>
       <div className="py-5 bg-violetPrimery px-2">
         <div className=" w-full justify-center items-center flex flex-col">
-          <img src="images/services.svg" className="h-16" />
+          <img src="images/services.svg" className="px-10 md:px-0" />
           <div className=" z-10 flex justify-center items-center flex-col -mt-2 space-y-5 ">
             <p className="font-bold text-4xl text-white">Services</p>
-            <p className="font-normal text-base text-gray-400  text-center px-5">
-              A team with a different because we have a dream with a difference.
-            </p>
-            <p className="font-normal text-base text-gray-400  text-center px-5">
-              “One Team! One Dream!”
-            </p>
           </div>
           <div className="mt-5">
             <BreadCrum
