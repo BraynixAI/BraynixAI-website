@@ -14,9 +14,12 @@ function research() {
       <AppBar />
       <ResearchPage />
       <ResearchButton />
-      <Covoid19 />
-      <OutDetection />
-      <CrackDetection />
+      <div className="scroll-down overflow-y-auto scroll-smooth h-screen">
+        <Covoid19 />
+        <OutDetection />
+        <CrackDetection />
+      </div>
+
       <Footer />
     </div>
   );

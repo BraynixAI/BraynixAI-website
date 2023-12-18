@@ -33,11 +33,8 @@ function CrackDetection() {
               dimension estimation of the cracks.
             </p>
             <div className="flex items-center  mt-5 md:mt-0 ">
-              <img
-                src="images/bluecircle.svg"
-                className="absolute h-8 md:h-auto"
-              />
-              <p className="text-white text-base font-normal z-10 md:ml-10 ml-5">
+              <img src="images/bluecircle.svg" className=" h-8 md:h-auto" />
+              <p className="text-white text-base font-normal z-10 -ml-3">
                 More Details
               </p>
             </div>

@@ -33,7 +33,7 @@ function HealthCare() {
               />
               <img
                 src="images/proboto.svg"
-                className="z-50 mx-auto rounded-xl"
+                className="z-10 mx-auto rounded-xl"
               />
               <img
                 src="images/halfcircle2.svg"

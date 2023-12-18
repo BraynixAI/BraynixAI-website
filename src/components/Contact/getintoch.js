@@ -4,7 +4,7 @@ function GetInToch() {
   return (
     <div className="bg-violetPrimery">
       <div className="bg-violetPrimery bg-getintoch-bg bg-cover lg:mx-20 mx-5 p-5 lg:p-20">
-        <div className="flex flex-col-reverse lg:flex-row lg:space-x-5 space-y-5">
+        <div className="flex flex-col-reverse lg:flex-row lg:space-x-5 md:space-y-5">
           <div className="lg:w-1/2 flex justify-center items-center mt-5 md:mt-0">
             <form className=" space-y-5   ">
               <p className="text-white font-bold lg:text-5xl text-center md:text-start text-3xl">
@@ -61,7 +61,7 @@ function GetInToch() {
         </div>
         <div className="">
           <div className="flex md:flex-row flex-col md:space-x-5  space-y-5 mt-5 md:mt-0">
-            <div className="flex space-x-2">
+            <div className="flex space-x-2 mt-5">
               <img src="images/cphone.svg" className="self-start" />
               <div className="">
                 <p className="text-blue-500 font-semibold text-base">PHONE </p>

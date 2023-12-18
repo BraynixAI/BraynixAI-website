@@ -15,17 +15,17 @@ function OurProcess() {
           Our Process
         </p>
         {/* <div className="grid grid-cols-4 lg:gap-20 gap-5 "> */}
-        <div className="flex lg:space-x-20 space-x-10 ">
+        <div className="grid grid-cols-4 gap-4 w-full">
           <div className="flex flex-col items-center space-y-5">
             <div
               className={` ${
                 tab === 1
-                  ? "lg:h-44 lg:w-44 h-5 w-5 rounded-full flex justify-center items-center p-5  bg-blue-950 cursor-pointer"
-                  : "lg:h-44 lg:w-44 h-5 w-5 rounded-full flex justify-center items-center p-5   bg-white cursor-pointer"
+                  ? "lg:h-44 lg:w-44 h-12 w-12 rounded-full flex justify-center items-center lg:p-5 p-1 bg-blue-950 cursor-pointer"
+                  : "lg:h-44 lg:w-44 h-12 w-12 rounded-full flex justify-center items-center lg:p-5 p-1   bg-white cursor-pointer"
               }`}
               onClick={() => handelOnClick(1)}
             >
-              <img src="images/discovery.svg" className="" />
+              <img src="images/discovery.svg" className="w-8/12 md:w-6/12" />
               {/* <img src="images/d2.svg" className="" /> */}
             </div>
             <p
@@ -42,12 +42,12 @@ function OurProcess() {
             <div
               className={` ${
                 tab === 2
-                  ? "lg:h-44 lg:w-44 h-4 w-4 rounded-full flex justify-center items-center p-5 bg-blue-950  cursor-pointer"
-                  : "lg:h-44 lg:w-44 h-4 w-4 rounded-full flex justify-center items-center p-5   bg-white  cursor-pointer"
+                  ? "lg:h-44 lg:w-44 h-12 w-12 rounded-full flex justify-center items-center lg:p-5 p-1 bg-blue-950  cursor-pointer"
+                  : "lg:h-44 lg:w-44 h-12 w-12 rounded-full flex justify-center items-center lg:p-5 p-1   bg-white  cursor-pointer"
               }`}
               onClick={() => handelOnClick(2)}
             >
-              <img src="images/copywriting.svg" className="" />
+              <img src="images/copywriting.svg" className="w-8/12 md:w-6/12" />
             </div>
             <p
               className={`${
@@ -63,12 +63,12 @@ function OurProcess() {
             <div
               className={` ${
                 tab === 3
-                  ? "lg:h-44 lg:w-44 h-4 w-4 rounded-full flex justify-center items-center p-5 bg-blue-950 cursor-pointer"
-                  : "lg:h-44 lg:w-44 h-4 w-4 rounded-full flex justify-center items-center p-5  bg-white cursor-pointer"
+                  ? "lg:h-44 lg:w-44 h-12 w-12 rounded-full flex justify-center items-center lg:p-5 p-1 bg-blue-950 cursor-pointer"
+                  : "lg:h-44 lg:w-44 h-12 w-12 rounded-full flex justify-center items-center lg:p-5 p-1  bg-white cursor-pointer"
               }`}
               onClick={() => handelOnClick(3)}
             >
-              <img src="images/caseidea.svg" className="" />
+              <img src="images/caseidea.svg" className="w-8/12 md:w-6/12" />
             </div>
             <p
               className={`${
@@ -84,12 +84,12 @@ function OurProcess() {
             <div
               className={` ${
                 tab === 4
-                  ? "lg:h-44 lg:w-44 h-4 w-4 rounded-full flex justify-center items-center p-5 bg-blue-950 cursor-pointer"
-                  : "lg:h-44 lg:w-44 h-4 w-4 rounded-full flex justify-center items-center p-5  bg-white cursor-pointer"
+                  ? "lg:h-44 lg:w-44 h-12 w-12 rounded-full flex justify-center items-center lg:p-5 p-1 bg-blue-950 cursor-pointer"
+                  : "lg:h-44 lg:w-44 h-12 w-12 rounded-full flex justify-center items-center lg:p-5 p-1  bg-white cursor-pointer"
               }`}
               onClick={() => handelOnClick(4)}
             >
-              <img src="images/design.svg" className="h-[]" />
+              <img src="images/design.svg" className="w-8/12 md:w-6/12" />
             </div>
             <p
               className={`${

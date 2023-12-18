@@ -6,10 +6,10 @@ export default function Product() {
     <div>
       <div className="py-5 bg-violetPrimery px-2">
         <div className=" w-full justify-center items-center flex flex-col">
-          <img src="images/products.svg" className="h-16" />
-          <div className=" z-10 flex justify-center items-center flex-col -mt-2 space-y-5 ">
+          <img src="images/products.svg" className="px-10 md:px-auto" />
+          <div className=" z-10 flex justify-center items-center flex-col -mt-4 md:-mt-2 space-y-5 ">
             <p className="font-bold text-4xl text-white">Product</p>
-            <p className="font-normal text-base text-gray-400  text-center px-5">
+            <p className="font-normal text-base text-gray-400  text-center px-5 hidden md:block">
               We are a team providing some of the best products
             </p>
           </div>

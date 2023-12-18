@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Carousel } from "react-responsive-carousel";
 import ReactSimplyCarousel from "react-simply-carousel";
+import SwiperCore from "swiper/core";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -10,6 +11,7 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import SliderImages from "./sliderimages";
 
+SwiperCore.use([Navigation]);
 // const data = [
 //   {
 //     image: "images/sl-img.svg",
@@ -18,6 +20,21 @@ import SliderImages from "./sliderimages";
 
 function Slider() {
   // const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+
+  const swiperRef = React.useRef(null);
+
+  const handlePrev = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slidePrev();
+    }
+  };
+
+  const handleNext = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
+
   return (
     <div>
       <div className="py-5 bg-violetPrimery md:bg-wave3-bg  bg-cover bg-center w-full">
@@ -57,6 +74,12 @@ function Slider() {
         </div>
         <div className="w-full my-10 hidden md:block">
           <Swiper
+            ref={swiperRef}
+            // your Swiper props here
+            navigation={{
+              prevEl: ".swiper-button-prev",
+              nextEl: ".swiper-button-next",
+            }}
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
@@ -106,11 +129,17 @@ function Slider() {
         </div>
         <div className=" hidden md:block">
           <div className="flex justify-center space-x-10">
-            <button className="text-white ">
+            <button
+              onClick={handlePrev}
+              className="text-white swiper-button-prev"
+            >
               <img src="images/leftbutton.svg" />
             </button>
 
-            <button className="text-white ">
+            <button
+              onClick={handleNext}
+              className="text-white swiper-button-next"
+            >
               <img src="images/rightbutton.svg" />
             </button>
           </div>
