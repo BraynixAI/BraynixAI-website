@@ -17,10 +17,10 @@ function index() {
       <Mouse />
       <WhatWeActually />
       <Development />
+      <Slider />
       {/* <ServiceWorker /> */}
       <Testimonial />
       <GotProject />
-      <Slider />
       <Footer />
     </div>
   );

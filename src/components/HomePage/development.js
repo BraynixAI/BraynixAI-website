@@ -3,7 +3,7 @@ import React from "react";
 function Development() {
   return (
     <div className="bg-violetPrimery">
-      <div className="  w-[80%]  mx-auto py-20">
+      <div className="  max-w-xl mx-auto px-4 py-20">
         <div className="flex">
           <div className="w-1/2 flex justify-end">
             <div className="w-[400px] text-white lg:mr-10 space-y-2">
@@ -25,12 +25,12 @@ function Development() {
             </div>
           </div>
         </div>
-        <div className="flex md:-mt-8">
+        <div className="flex md:-mt-1">
           <div className="w-1/2 flex justify-end">
             <div className=" mt-2.5 sm:mt-0">
               <img src="images/Group131120.svg" />
             </div>
-            <div className="flex -mr-3 ">
+            <div className="flex -mr-[13px] ">
               <div className="h-0.5 md:w-40 w-20 md:mt-11 mt-5 border-dotted border-t border-[#FF3104] "></div>
               <div className="md:h-6 h-3 md:w-6 w-3 bg-[#FF3104] rounded-full md:-ml-3 md:-mr-3 -mr-2  md:mt-8 mt-3 z-10"></div>
               <div className="h-52 w-0 mr-2 lg:mr-2.5 sm:mr-2  border-dotted border-l  border-white "></div>
@@ -61,14 +61,14 @@ function Development() {
           </div>
           <div className="w-1/2 flex">
             <div className="md:h-6 h-3 md:w-6 w-3 z-10 bg-[#26ACCA] rounded-full lg:-ml-3 ml md:mt-8 mt-10"></div>
-            <div className="md:h-40 h-48 md:w-0 mt-11 border-dotted border-l md:-ml-3 -ml-1.5 border-white "></div>
+            <div className="md:h-52 h-48 md:w-0 mt-11 border-dotted border-l md:-ml-3 -ml-1.5 border-white "></div>
             <div className="md:h-0.5 md:w-40 w-20 mt-11 border-dotted border-t border-blue-600 "></div>
             <div className=" mt-2.5 sm:mt-0">
               <img src="images/group131119.svg" />
             </div>
           </div>
         </div>
-        <div className="flex md:-mt-8 -mt-2">
+        <div className="flex md:-mt-8">
           <div className="w-1/2 flex justify-end">
             <div className=" -mt-4 sm:-mt-0">
               <img src="images/Group131120.svg" />
