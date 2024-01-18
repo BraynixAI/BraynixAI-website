@@ -10,7 +10,7 @@ function ResearchPage() {
           <div className=" z-10 flex justify-center items-center flex-col -mt-2 space-y-5 ">
             <p className="font-bold text-4xl text-white">Research</p>
             <p className="font-normal text-base text-gray-400  text-center px-5">
-              We are a team providing some of the best products
+              We will love to here from you.
             </p>
           </div>
           <div className="mt-5">

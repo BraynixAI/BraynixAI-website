@@ -8,8 +8,8 @@ export default function Product() {
         <div className=" w-full justify-center items-center flex flex-col">
           <img src="images/products.svg" className="px-10 md:px-auto" />
           <div className=" z-10 flex justify-center items-center flex-col -mt-4 md:-mt-2 space-y-5 ">
-            <p className="font-bold text-4xl text-white">Product</p>
-            <p className="font-normal text-base text-gray-400  text-center px-5 hidden md:block">
+            <p className="font-bold text-5xl text-white">Products</p>
+            <p className="font-normal text-base text-gray-400  text-center px-5 hidden md:block tracking-wider">
               We are a team providing some of the best products
             </p>
           </div>

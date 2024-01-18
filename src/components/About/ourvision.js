@@ -3,7 +3,7 @@ import React from "react";
 function OurVision() {
   return (
     <div>
-      <div className="flex items-center w-full  bg-violetPrimery md:py-40 py-5">
+      <div className="flex items-center w-full  bg-violetPrimery md:py-32 py-5">
         <div className="flex flex-col md:flex-row justify-between items-center md:space-x-10 md:mx-20 mx-4">
           <div className="md:w-1/2 flex ">
             <div className="hidden md:block">

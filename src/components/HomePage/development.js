@@ -18,25 +18,27 @@ function Development() {
           </div>
           <div className="w-1/2 flex">
             <div className="md:h-6 h-3 md:w-6 w-3 z-10 bg-blue-600 rounded-full lg:-ml-3 ml md:mt-8 mt-10"></div>
-            <div className="md:h-40 h-40 md:w-0 mt-11 border-dotted border-l md:-ml-3 -ml-1.5 border-white "></div>
+            <div className="md:h-52 h-40 md:w-0 mt-11 border-dotted border-l md:-ml-3 -ml-1.5 border-white "></div>
             <div className="md:h-0.5 md:w-40 w-20 mt-11 border-dotted border-t border-blue-600 "></div>
             <div className=" mt-2.5 sm:mt-0">
               <img src="images/group131119.svg" />
             </div>
           </div>
         </div>
-        <div className="flex md:-mt-1">
+        <div className="flex md:-mt-8">
           <div className="w-1/2 flex justify-end">
-            <div className=" mt-2.5 sm:mt-0">
+            <div className=" -mt-2 md:-mt-0">
               <img src="images/Group131120.svg" />
             </div>
             <div className="flex -mr-[13px] ">
-              <div className="h-0.5 md:w-40 w-20 md:mt-11 mt-5 border-dotted border-t border-[#FF3104] "></div>
-              <div className="md:h-6 h-3 md:w-6 w-3 bg-[#FF3104] rounded-full md:-ml-3 md:-mr-3 -mr-2  md:mt-8 mt-3 z-10"></div>
-              <div className="h-52 w-0 mr-2 lg:mr-2.5 sm:mr-2  border-dotted border-l  border-white "></div>
+              <div className="h-0.5 md:w-40 w-20 md:mt-11 mt-4 border-dotted border-t border-[#FF3104] "></div>
+              <div className="md:h-6 h-3 md:w-6 w-3 bg-[#FF3104] rounded-full md:-ml-3 md:-mr-0 -mr-2  md:mt-8 mt-3 z-10"></div>
+              <div className="md:hidden h-52 w-0 mr-2 md:mr-2.5 sm:mr-2  border-dotted border-l  border-white "></div>
             </div>
           </div>
           <div className="w-1/2 flex ">
+            <div className="hidden md:block md:h-48 h-40 md:w-0 mt-11 border-dotted border-l  border-white "></div>
+
             <div className="w-[400px] text-white lg:ml-10 ml-5 space-y-2">
               <p className="text-[#FF3104]">AI and Data Analysis</p>
               <p className="lg:text-justify  text-xs lg:text-base">

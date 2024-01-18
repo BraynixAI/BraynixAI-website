@@ -3,7 +3,7 @@ import React from "react";
 function HealthCare() {
   return (
     <div>
-      <div className="flex items-center w-full  bg-violetPrimery lg:py-40">
+      <div className="flex items-center w-full  bg-violetPrimery lg:py-10">
         {/* <div className="flex flex-col-reverse lg:flex-row justify-between items-center space-y-5   lg:space-x-10 mx-2 lg:mx-20"> */}
         <div className="flex lg:flex-row flex-col-reverse  justify-between items-center space-y-5 lg:space-x-10 mx-2 lg:mx-20">
           <div className="lg:w-1/2 flex-1 md:space-y-5 flex flex-col md:justify-start md:items-start justify-center items-center">

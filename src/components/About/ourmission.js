@@ -2,7 +2,7 @@ import React from "react";
 
 function OurMission() {
   return (
-    <div className="flex items-center w-full  bg-violetPrimery md:py-40 py-5">
+    <div className="flex items-center w-full  bg-violetPrimery md:py-32 py-5">
       <div className="flex flex-col-reverse md:flex-row justify-between items-center md:space-x-10 md:mx-20 mx-4">
         <div className="md:w-1/2 flex-1 md:space-y-5 flex flex-col items-center md:items-start">
           <p className="text-white font-medium md:text-5xl text-3xl ">

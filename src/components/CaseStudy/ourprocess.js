@@ -15,7 +15,7 @@ function OurProcess() {
           Our Process
         </p>
         {/* <div className="grid grid-cols-4 lg:gap-20 gap-5 "> */}
-        <div className="grid grid-cols-4 gap-4 w-full">
+        <div className="grid grid-cols-4 gap-2 w-full">
           <div className="flex flex-col items-center space-y-5">
             <div
               className={` ${
