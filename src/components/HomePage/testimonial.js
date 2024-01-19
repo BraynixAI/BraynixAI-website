@@ -17,8 +17,8 @@ function Testimonial() {
         </div>
         <div className="flex justify-center items-center w-full">
           <div className="flex my-10 space-x-10 w-[65%] ">
-            <div className="flex mt-10">
-              <img src="images/group131133.svg" />
+            <div className="flex mt-10 transform transition duration-300 hover:translate-y-2">
+              <img src="images/group131133.svg" className="" />
             </div>
             <div className="flex flex-1 flex-col ">
               <div className=" ">

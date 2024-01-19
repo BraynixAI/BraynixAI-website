@@ -11,7 +11,7 @@ function GotProject() {
           Got a Project ? Just Tell Us!
         </p>
       </div>
-      <div className="flex justify-center lg:my-8 my-5">
+      <div className="flex justify-center lg:my-8 my-5 hover:scale-125 duration-300 ">
         <a
           href="/contact"
           className="flex justify-between items-center border border-white rounded-full md:px-4 p-2 space-x-4"

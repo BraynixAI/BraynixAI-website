@@ -18,7 +18,7 @@ function Welcome() {
             </p>
           </div>
 
-          <button className=" lg:px-10 lg:py-4 px-4 py-2 text-xs text-white lg:text-base font-semibold bg-[#9644FF] rounded-full">
+          <button className=" lg:px-10 lg:py-4 px-4 py-2 text-xs text-white lg:text-base font-semibold bg-[#9644FF] rounded-full hover:scale-125 duration-300 ">
             Know more
           </button>
         </div>

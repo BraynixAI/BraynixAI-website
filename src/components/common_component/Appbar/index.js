@@ -48,14 +48,12 @@ function AppBar() {
     <div>
       <div className="bg-violetPrimery lg:px-14 p-5 ">
         <div className="  flex justify-between items-center ">
-          <div className="flex space-x-2">
-            {/* <div className="space-y-1">
-              <img src="images/r-logo.svg" />
-              <img src="images/r-logo.svg" />
-            </div>
-            <p className="text-white text-lg font-bold ">logo</p> */}
+          <div className="flex space-x-2 ">
             <a href="/">
-              <img src="images/Braynixlogo.svg" className="h-16" />
+              <img
+                src="images/Braynixlogo.svg"
+                className="h-16 animate-pulse"
+              />
             </a>
           </div>
 
@@ -65,7 +63,7 @@ function AppBar() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-white font-normal text-base "
+                  className="text-white font-normal text-base  hover:scale-125 duration-300  hover:text-violet-700"
                 >
                   {item.name}
                 </a>
@@ -130,7 +128,7 @@ function AppBar() {
                     </div>
                   </Transition.Child>
                   <div className="mt-5 flex-1 h-0 overflow-y-auto">
-                    <nav className="px-2 space-y-1">
+                    <nav className="px-2 space-y-1 ">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
@@ -138,8 +136,8 @@ function AppBar() {
                           className={classNames(
                             item.href === router.pathname
                               ? "bg-blue-500 text-white"
-                              : "text-white hover:bg-blue-600",
-                            "group flex items-center px-2 py-2 text-base font-medium rounded-md"
+                              : "text-white hover:bg-blue-600 ",
+                            "group flex justify-center items-center px-2 py-2 text-base font-medium rounded-md "
                           )}
                         >
                           {item.name}
